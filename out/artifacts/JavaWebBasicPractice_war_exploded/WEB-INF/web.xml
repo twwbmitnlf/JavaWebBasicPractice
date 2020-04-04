@@ -11,4 +11,33 @@
         <servlet-name>HelloWorld</servlet-name>
         <url-pattern>/HelloWorld</url-pattern>
     </servlet-mapping>
+
+    <servlet>
+        <servlet-name>HelloForm</servlet-name>
+        <servlet-class>com.lq.prc.HelloForm</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>HelloForm</servlet-name>
+        <url-pattern>/HelloForm</url-pattern>
+        <url-pattern>/HelloForm1</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>CheckBox</servlet-name>
+        <servlet-class>com.lq.prc.CheckBox</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>CheckBox</servlet-name>
+        <url-pattern>/CheckBox1</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ReadParams</servlet-name>
+        <servlet-class>com.lq.prc.ReadParams</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ReadParams</servlet-name>
+        <url-pattern>/ReadParams</url-pattern>
+    </servlet-mapping>
+
 </web-app>
